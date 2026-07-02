@@ -99,3 +99,14 @@ To advance this documentation repository, structural setup, or post-training pip
 
 Establish a performance evaluation harness using Triton to profile exactly how compiling a Grouped-Query Attention (GQA) rolling cache mechanism straight into GPU registers alters the wall-clock token generation throughput of high-concurrency cloud serving nodes [INDEX: 22].
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-GPTs&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GPTs&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GPTs&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GPTs&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+

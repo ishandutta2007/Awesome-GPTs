@@ -110,5 +110,5 @@ Establish a performance evaluation harness using Triton to profile exactly how c
 </a>
 </div>
 
-<!-- star plot check -->
+<!-- awesome link check -->
 

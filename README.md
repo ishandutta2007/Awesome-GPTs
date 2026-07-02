@@ -34,16 +34,16 @@ flowchart LR
 
 The generative pre-trained transformer paradigm is executed across distinct structural and tokenization topologies to manage routing, context scale, and computational complexity.
 
-### A. Dense Transformers (Traditional Baseline)
-*   **Mechanism:** Every single token pass activates 100% of the parameter weights across the entire neural network graph. Maximize geometric modeling fidelity but introduces extreme operational compute costs at multi-hundred-billion parameter scales.
-*   **Examples:** GPT-3, GPT-4-Dense.
+- ### A. Dense Transformers (Traditional Baseline)
+	*   **Mechanism:** Every single token pass activates 100% of the parameter weights across the entire neural network graph. Maximize geometric modeling fidelity but introduces extreme operational compute costs at multi-hundred-billion parameter scales.
+	*   **Examples:** GPT-3, GPT-4-Dense.
 
-### B. Sparsely Routed Mixture-of-Experts (Sparse MoE)
-*   **Mechanism:** Decouples total parameter capacity from active token compute footprints. The traditional feed-forward network (FFN) layer is divided into multiple independent parallel sub-networks (Experts) [INDEX: 15]. A fast routing network reads incoming token embeddings and dynamically dispatches them to only 1 or 2 specialized experts per layer pass, maximizing capacity while keeping inference FLOP costs low [INDEX: 15].
-*   **Examples:** GPT-4-MoE, Mixtral, DeepSeek-V3 [INDEX: 15].
+- ### B. Sparsely Routed Mixture-of-Experts (Sparse MoE)
+	*   **Mechanism:** Decouples total parameter capacity from active token compute footprints. The traditional feed-forward network (FFN) layer is divided into multiple independent parallel sub-networks (Experts) [INDEX: 15]. A fast routing network reads incoming token embeddings and dynamically dispatches them to only 1 or 2 specialized experts per layer pass, maximizing capacity while keeping inference FLOP costs low [INDEX: 15].
+	*   **Examples:** GPT-4-MoE, Mixtral, DeepSeek-V3 [INDEX: 15].
 
-### C. Unified Omni-Directional Modality Tokenizers (Native Multimodal)
-*   **Mechanism:** Maps multi-sensory inputs into a single shared coordinate sphere. Image pixels are tokenized into 2D structural patches [INDEX: 1], raw waveforms are serialized via discrete audio codebooks, and text is sharded via byte-level subword BPEs, aligning all sensory streams into a single contiguous autoregressive decoder matrix.
+- ### C. Unified Omni-Directional Modality Tokenizers (Native Multimodal)
+	*   **Mechanism:** Maps multi-sensory inputs into a single shared coordinate sphere. Image pixels are tokenized into 2D structural patches [INDEX: 1], raw waveforms are serialized via discrete audio codebooks, and text is sharded via byte-level subword BPEs, aligning all sensory streams into a single contiguous autoregressive decoder matrix.
 
 ---
 

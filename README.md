@@ -12,7 +12,11 @@ Over the history of artificial intelligence, GPTs have transformed from lightwei
 The architectural development of GPT foundation systems has transitioned from task-specific discriminative fine-tuning to text-guided zero-shot prompts, multi-modal patch arrays, and native inference-time thinking loops.
 
 ```mermaid
-[GPT-1 (Radford et al., 2018)] ───> [GPT-3 / Scale (2020)] ───> [GPT-4 / Multi-Modal (2023)] ───> [GPT-o1 / Reasoning (2024-Present)](Unsupervised + Task Fine-Tune)     (In-Context Few-Shot Prompts)     (Unified Interleaved Token Patches)    (Reinforcement-Learned Search Tracks)
+flowchart LR
+    A["GPT-1 (2018)<br/>(Unsupervised Pretraining + Task Fine-Tuning)"]
+    --> B["GPT-3 / Scaling (2020)<br/>(In-Context Few-Shot Learning)"]
+    --> C["GPT-4 / Multimodal (2023)<br/>(Unified Interleaved Token Processing)"]
+    --> D["GPT-o1 / Reasoning (2024-Present)<br/>(Reinforcement-Learned Test-Time Reasoning)"]
 ```
 
 *   **The Unsupervised Pre-training + Supervised Tuning Era (GPT-1 & GPT-2, 2018–2019)**

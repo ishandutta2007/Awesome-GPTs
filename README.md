@@ -1,14 +1,18 @@
 # Awesome-GPTs 🚀
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Awesome GPTs Banner" width="100%">
+  <img src="assets/banner.svg" alt="Awesome GPTs Banner - Evolution of Generative Pre-trained Transformers" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ## 📜 Generative Pre-trained Transformers (GPTs): History, Progression, Variants, & Applications
 
-A Generative Pre-trained Transformer (GPT) is a foundational neural network architecture designed to process, model, and generate sequential data, most notably human natural language and programming source code. Developed on the architectural blueprint of the Transformer decoder, GPTs operate on the mathematical paradigm of **autoregressive next-token prediction**: given a historical sequence of tokens, the network computes a forward pass to output a probability distribution over a fixed vocabulary matrix to predict the absolute most likely next token [INDEX: 1, 22]. 
+A **Generative Pre-trained Transformer (GPT)** is a foundational neural network architecture designed to process, model, and generate sequential data, most notably human natural language and programming source code. Developed on the architectural blueprint of the Transformer decoder, GPTs operate on the mathematical paradigm of **autoregressive next-token prediction**: given a historical sequence of tokens, the network computes a forward pass to output a probability distribution over a fixed vocabulary matrix to predict the absolute most likely next token [INDEX: 1, 22].
 
-Over the history of artificial intelligence, GPTs have transformed from lightweight textual feature extractors to multi-modal foundation models and reinforcement-learned autonomous reasoning systems, dictating the modern trajectory of scaling laws and generative computation.
+Over the history of artificial intelligence, GPTs and Large Language Models (LLMs) have transformed from lightweight textual feature extractors to multi-modal foundation models and reinforcement-learned autonomous reasoning systems, dictating the modern trajectory of scaling laws and generative computation.
 
 ---
 

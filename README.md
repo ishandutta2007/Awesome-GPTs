@@ -1,5 +1,10 @@
-# Awesome-GPTs
-## Generative Pre-trained Transformers (GPTs): History, Progression, Variants, & Applications
+# Awesome-GPTs 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome GPTs Banner" width="100%">
+</p>
+
+## 📜 Generative Pre-trained Transformers (GPTs): History, Progression, Variants, & Applications
 
 A Generative Pre-trained Transformer (GPT) is a foundational neural network architecture designed to process, model, and generate sequential data, most notably human natural language and programming source code. Developed on the architectural blueprint of the Transformer decoder, GPTs operate on the mathematical paradigm of **autoregressive next-token prediction**: given a historical sequence of tokens, the network computes a forward pass to output a probability distribution over a fixed vocabulary matrix to predict the absolute most likely next token [INDEX: 1, 22]. 
 
@@ -7,7 +12,7 @@ Over the history of artificial intelligence, GPTs have transformed from lightwei
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 📅 1. The Macro Chronological Evolution
 
 The architectural development of GPT foundation systems has transitioned from task-specific discriminative fine-tuning to text-guided zero-shot prompts, multi-modal patch arrays, and native inference-time thinking loops.
 
@@ -28,7 +33,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Architectural Variants
+## 🧬 2. Core Functional & Architectural Variants
 
 The generative pre-trained transformer paradigm is executed across distinct structural and tokenization topologies to manage routing, context scale, and computational complexity.
 
@@ -40,7 +45,7 @@ The generative pre-trained transformer paradigm is executed across distinct stru
 
 ---
 
-## 3. Post-Training Curation & Alignment Types
+## 🎯 3. Post-Training Curation & Alignment Types
 
 Because raw pre-trained GPTs are purely statistical text-mimics that complete strings blindly, they must undergo extensive structural post-training layers to adopt safe, conversational, and instruction-following traits.
 
@@ -52,7 +57,7 @@ Because raw pre-trained GPTs are purely statistical text-mimics that complete st
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## ⚙️ 4. Production Engineering Challenges & Hardware Solutions
 
 Deploying large-scale GPT systems across global enterprise serving nodes introduces intense memory allocation caps and memory-bandwidth constraints.
 
@@ -63,7 +68,7 @@ Deploying large-scale GPT systems across global enterprise serving nodes introdu
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🚀 5. Frontier Real-World AI Applications
 
 | Application Domain | Description & Scaffolding | First Used (Year) | Key Paper / Reference |
 | :--- | :--- | :--- | :--- |
@@ -73,7 +78,7 @@ Deploying large-scale GPT systems across global enterprise serving nodes introdu
 
 ---
 
-## References
+## 📚 References
 1. Vaswani, A., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems (NeurIPS)*, 30.
 2. Radford, A., et al. (2018). Improving language understanding by generative pre-training. *OpenAI Technical Whitepaper*.
 3. Radford, A., et al. (2019). Language models are unsupervised multitask learners. *OpenAI Blog Monograph*.
